@@ -1,0 +1,4 @@
+/* line 1, ../sass/partials/_common.scss */
+.nav, .pagination, .carousel, .panel-title a {
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ngBoilerplate</title>
+    <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap-theme.css">
+
+    <link rel="stylesheet" media="screen, projection" href="./styles/stylesheets/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="./styles/stylesheets/print.css" type="text/css">
+    <!--[if IE]>
+        <link rel="stylesheet" media="screen, projection" href="./styles/stylesheets/ie.css" type="text/css">
+    <![endif]-->
+</head>
+<body>
+
+<div class="container" ng-app="ngBoilerplateApp">
+    <nav class="row">
+        <a ui-sref="ngBoilerplate.monitoring">Monitoring</a>
+        <a ui-sref="ngBoilerplate.requests">Requests</a>
+    </nav>
+    <div class="row">
+        <div ui-view></div>
+    </div>
+</div>
+
+<script src="./vendor/underscore/underscore.js"></script>
+<script src="./vendor/jquery/dist/jquery.js"></script>
+<script src="./vendor/bootstrap/dist/js/bootstrap.js"></script>
+<script src="./vendor/angular/angular.js"></script>
+<script src="./vendor/angular-sanitize/angular-sanitize.js"></script>
+<script src="./vendor/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="./vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<script src="./app.js"></script>
+<script src="./routes.js"></script>
+<script src="./modules/monitoring/controller.js"></script>
+<script src="./modules/requests/controller.js"></script>
+</body>
+</html>
