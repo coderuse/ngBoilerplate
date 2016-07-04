@@ -3,6 +3,7 @@
   "description": "A boilerplate for AngularJS",
   "main": "index.html",
   "moduleType": [],
+  "version": "1.0",
   "keywords": [
     "AngularJS", "boilerplate"
   ],
